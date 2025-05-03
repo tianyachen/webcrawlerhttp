@@ -1,0 +1,29 @@
+{
+  "name": "webcrawlerhttp",
+  "version": "1.0.0",
+  "description": "A web crawler",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianyachen/webcrawlerhttp.git"
+  },
+  "keywords": [
+    "web crawler",
+    "http",
+    "javascript",
+    "html"
+  ],
+  "author": "Tianya Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianyachen/webcrawlerhttp/issues"
+  },
+  "homepage": "https://github.com/tianyachen/webcrawlerhttp#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
