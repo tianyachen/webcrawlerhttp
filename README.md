@@ -26,10 +26,10 @@ A simple, lightweight web crawler built with JavaScript using [`jsdom`](https://
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/tianyachen/webcrawlerhttp.git
-   cd webcrawlerhttp
-   ```
+```bash
+git clone https://github.com/tianyachen/webcrawlerhttp.git
+cd webcrawlerhttp
+```
 
 2. Install dependencies:
 
