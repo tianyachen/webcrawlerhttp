@@ -25,5 +25,8 @@
   "homepage": "https://github.com/tianyachen/webcrawlerhttp#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^26.1.0"
   }
 }
