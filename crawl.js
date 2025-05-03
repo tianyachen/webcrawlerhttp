@@ -1,9 +1,14 @@
 const { JSDOM } = require("jsdom");
 
 async function crawlPage(baseURL, currentURL, pages) {
-  const baseURLObj = new URL(baseURL);
-  const currentURLObj = new URL(currentURL);
-  if (baseURLObj.hostname !== currentURLObj.hostname) {
+  try {
+    const baseURLObj = new URL(baseURL);
+    const currentURLObj = new URL(currentURL);
+    if (baseURLObj.hostname !== currentURLObj.hostname) {
+      return pages;
+    }
+  } catch (err) {
+    console.log(`Invalid URL: ${err.message} on page: ${currentURL}`);
     return pages;
   }
   const normalizedCurrentURL = normalizeURL(currentURL);
